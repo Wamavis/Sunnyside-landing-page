@@ -293,4 +293,144 @@
   filter: brightness(0) invert(1);
 }
 @media (min-width: 769px) {
+  .header__container {
+    height: 90vh;
+  }
+  .menu-hamburger {
+    display: none;
+  }
+  .header-image {
+    object-fit: cover;
+  }
+  .nav__menu {
+    padding: 3rem 3rem;
+  }
+  .nav__menu ul {
+    display: flex;
+    list-style: none;
+  }
+  .nav__menu img {
+    width: 15rem;
+  }
+  .nav__menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  .nav__menu li + li {
+    margin-left: 2.5rem;
+  }
+  .cta {
+    font-family: "Fraunces";
+    color: black !important;
+    font-weight: 900 !important;
+    background-color: white;
+    border-radius: 4rem;
+    text-transform: uppercase;
+    padding: 1.5rem;
+  }
+  .cta:hover {
+    background-color: rgb(110, 205, 252);
+    color: white !important;
+  }
+  .intro {
+    gap: 2.5rem;
+  }
+  .intro h1 {
+    font-size: 3.5rem;
+    letter-spacing: 1.2rem;
+  }
+  .arrow-down {
+    width: 2rem;
+    height: 7rem;
+  }
+  .section-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "transform-brand img-transform-brand-container"
+      "stand-out-img-container stand-out"
+      "graphic-design-container photography-container";
+  }
+  .transform-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .transform-brand > div,
+  .stand-out > div {
+    width: 55%;
+    text-align: left;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.85rem;
+  }
+  .transform-brand h1,
+  .stand-out h1 {
+    font-size: 3rem;
+  }
+  .transform-brand p,
+  .stand-out p,
+  .bottom p,
+  .clientTestimonial--paragraph {
+    font-weight: 700;
+    line-height: 2rem;
+    font-size: 1.3rem;
+  }
+  .bottom {
+    width: 50%;
+  }
+  .testimonials {
+    gap: 8rem;
+    padding: 10rem 0;
+  }
+  .testimonials h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1.1rem;
+  }
+  .testimonials-container {
+    width: 80%;
+    flex-direction: row;
+  }
+  .clientTestimonial {
+    gap: 2rem;
+  }
+  .img-container {
+    width: 5rem;
+    height: 5rem;
+  }
+  .title-client {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .gallery-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .footer {
+    padding: 5rem 0;
+    gap: 5.5rem;
+  }
+  .footer a {
+    font-size: 1.3rem;
+  }
+  .footer li + li {
+    margin-left: 5rem;
+  }
+  .topContainer {
+    gap: 3rem;
+  }
+  .topContainer img {
+    width: 15rem;
+  }
+
+  .topContainer img:hover {
+    filter: brightness(0) invert(1);
+  }
+  .topContainer a:hover {
+    color: white;
+  }
+  .social-link + .social-link {
+    margin-left: 2.5rem;
+  }
 }
